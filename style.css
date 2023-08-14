@@ -113,7 +113,7 @@
     background-color: transparent;
     border: 2px solid var(--secondry-color);
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 6px;
     color: var(--primary-color);
   }
   .profile button:hover{
@@ -133,30 +133,40 @@
   }
   .edu-container{
     padding-top: 17vh;
-    padding-left: 15vw;
+    padding-left: 12vw;
   }
-  .edu{
-    display: flex;
-    margin-bottom: 4vh;
+  #edu-containt{
+    margin-bottom: -1px !important;
+    border-color: transparent;
+    background-color: transparent;
   }
   #edu-img{
-    width: 10vw;
+    height: 16vh;
     transition: 0.5s;
   }
   #edu-img:hover{
-    width: 12vw;
+    height: 18vh;
   }
   .edu-text{
     text-align: left;
     padding-left: 10vw;
-    padding-top: 20px;
+    padding-top: 5px;
+
+  }
+  .edu-text .lead{
+    font-size: 18px !important;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+    margin-bottom: -4px;
   }
   .edu-text h4{
     color: #2e1065;
     font-weight: bold;
+    margin-bottom: -2px;
   }
   .edu-text h5{
     color: #134e4a;
+    margin-bottom: -2px;
   }
   
   /* -------------------------------------- Project ------------------------------ */
@@ -365,15 +375,21 @@
   background-image: url(image/edu2.png); 
 }
 .edu-container{
-  padding-top: 8vh;
+  padding-top: 6vh;
   padding-left: 5vw;
   padding-right: 5vw;
 }
+#edu-containt{
+  margin-bottom: 5vh;
+}
 #edu-img{
-  width: 28vw;
+  height: 15vh;
+}
+#edu-img:hover{
+  height: 15vh;
 }
 .edu{
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 
@@ -467,22 +483,34 @@ form .btn{
   background-image: url(image/edu2.png); 
 }
 .edu-container{
-  padding-top: 6vh;
+  padding-top: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
 }
+
 #edu-img{
-  width: 30vw;
+  height: 10vh;
+  margin-bottom: 10px;
+}
+#edu-img:hover{
+  height: 10vh;
 }
 .edu{
-  display: block;
-  margin-bottom: 4vw;
+  margin-bottom: -20px;
+}
+.edu-text .lead{
+  font-size: 3.5vw !important;
+  font-weight: 500;
 }
 .edu-text h4{
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 .edu-text h5{
-  font-size: 4vw;
+  font-size: 3.5vw;
+}
+.edu-text p{
+  margin-top: -5px;
+  font-size: 3.3vw;
 }
 .edu-text{
   padding-top: 0.2vh;

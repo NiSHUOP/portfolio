@@ -190,7 +190,7 @@
     margin-bottom: 2vh;
   }
   .project-container .card:hover{
-    background-color: #ffff;
+    background-color: var(--primary-color);
     margin-top: -1vh;
     
   }
@@ -221,6 +221,19 @@
     border-color: var(--sixth-color);
   }
   
+#more{
+  margin: 0 15px;
+  color: var(--primary-color);
+  font-weight: 700;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+}
+#more:hover{
+  background-color: var(--primary-color);
+    color: var(--sixth-color);
+    border-color: var(--primary-color);
+}
+
   /* -------------------------------------- Contact ------------------------------ */
   #contact{
     background-image: url(image/cu.jpg);

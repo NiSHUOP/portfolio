@@ -169,6 +169,44 @@
     margin-bottom: -2px;
   }
   
+
+ /* --------------------------- Skills ------------------------------- */
+  
+ #skills{
+  background-image: url(image/skil.jpg);
+  background-size: 100% 100vh;
+  text-align: center;
+  padding-top: 8vh;
+}
+.skill-container{
+  border: 2px solid rgba(255, 255, 255, 0.426);
+  background-color: #00000055;
+  padding-top: 15px;
+  margin: 0 8vw;
+  border-radius: 10px;
+}
+#skill-content{
+  border-color: transparent;
+    background-color: transparent;
+    margin-bottom: -10px !important;
+}
+#skill_title{
+  text-align: right !important;
+  color: aliceblue;
+}
+#skill-body ul li{
+  color: aliceblue;
+  padding: 0 15px;
+  font-size: 20px;
+  display: inline-block;
+}
+#skill-icon{
+  width: 40px;
+  border: none;
+}
+
+
+
   /* -------------------------------------- Project ------------------------------ */
   #project{
     background-image: url(image/proj.jpg);

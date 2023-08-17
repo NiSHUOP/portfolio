@@ -191,7 +191,8 @@
     margin-bottom: -10px !important;
 }
 #skill_title{
-  text-align: right !important;
+  text-align: left !important;
+  padding-left: 20px;
   color: aliceblue;
 }
 #skill-body ul li{
@@ -424,6 +425,8 @@
  /* -------------------------------------- Media Query Education ------------------------------ */
  #education{
   background-image: url(image/edu2.png); 
+  width: 100%;
+  height: 100vh;
 }
 .edu-container{
   padding-top: 6vh;
@@ -443,8 +446,48 @@
   margin-bottom: 2vh;
 }
 
+ /* --------------------------- Media Query Skills ------------------------------- */
+ #skills{ 
+  width: 100%;
+  height: 100vh;
+}
+
+ .skill-container{
+  border: 2px solid rgba(255, 255, 255, 0.426);
+  background-color: #00000055;
+  padding: 15px;
+  margin: 0 2vw;
+  margin-top: 3vh;
+  border-radius: 10px;
+}
+
+#skill_title{
+  text-align: left !important;
+}
+#skill-body{
+  margin-top: -2vh;
+}
+#skill-body ul li{
+  padding: 0 10px 0 0px;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+#skill-icon{
+  width: 2rem;
+  border: none;
+}
+#skill-body h7{
+  font-size: 2rem !important;
+}
+#icon_text{
+  font-size: 1.5rem;
+}
 
  /* -------------------------------------- Media Query Project ------------------------------ */
+ #project{
+  width: 100%;
+  height: 100%;
+}
  .card-text{
   max-height: 5vh;
   overflow: auto;
@@ -568,6 +611,52 @@ form .btn{
   text-align: center;
   padding-left: 0;
 }
+
+
+ /* --------------------------- Media Query Skills ------------------------------- */
+  
+
+.skill-container{
+  border: 2px solid rgba(255, 255, 255, 0.426);
+  background-color: #00000055;
+  padding: 15px;
+  margin: 0 1vw;
+  margin-top: 3vh;
+  border-radius: 10px;
+}
+#skill-content{
+  border-color: transparent;
+    background-color: transparent;
+    margin-bottom: -2rem !important;
+
+}
+#skill_title{
+  text-align: left !important;
+  color: aliceblue;
+  font-size: 5vw;
+}
+#skill-body{
+  margin-top: -2vh;
+}
+#skill-body ul li{
+  color: aliceblue;
+  padding: 0 10px 0 0px;
+  font-size: 2.5vh;
+  display: inline-block;
+}
+#skill-icon{
+  width: 4.5vh;
+  border: none;
+}
+#skill-body h7{
+  font-size: 3vh !important;
+}
+#icon_text{
+  font-size: 3vh;
+}
+
+
+
 
  /* -------------------------------------- Media Query Project ------------------------------ */
  #project{

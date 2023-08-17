@@ -54,7 +54,7 @@
   .name-container h2{
     font-size: 3vw;
     letter-spacing: 12px;
-    transition: 0.5s;
+    transition: 0.5s !important;
     text-align: center;
   }
   .name-container h2:hover{

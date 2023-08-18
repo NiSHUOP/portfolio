@@ -310,8 +310,23 @@
     border-color: var(--sixth-color);
   }
   
+
   
+  /* -------------------------------------- Experience ------------------------------ */
+  #experience{
+    background-image: url(image/expe.jpg);
+    background-size: 100% 100vh;
+    text-align: center;
+    padding-top: 8vh;
+  }
  
+ .tab-content{
+  text-align: justify;
+}
+.tab-pane{
+  padding: 20px;
+}
+
 
   /* -------------------------------------- Contact ------------------------------ */
   #contact{
@@ -561,6 +576,15 @@
   padding-bottom: 5vh;
 }
 
+/* -------------------------------------- Media Query experience ------------------------------ */
+
+#experience{
+  width: 100%;
+  height: 100%;
+}
+ 
+
+
  /* -------------------------------------- Media Query Contact ------------------------------ */
  .contact-img img{
   display: none;
@@ -758,6 +782,15 @@ form .btn{
 .certificate-container{
   padding-bottom: 5vh;
 }
+
+ /* -------------------------------------- Media Query experience ------------------------------ */
+
+ #experience{
+  width: 100%;
+  height: 100%;
+}
+
+
 
   /* -------------------------------------- Media Query Contact ------------------------------ */
   .contact-img img{

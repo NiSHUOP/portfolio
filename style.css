@@ -577,13 +577,10 @@
 }
 
 /* -------------------------------------- Media Query experience ------------------------------ */
-
-#experience{
-  width: 100%;
-  height: 100%;
+.tab-content{
+  height: 48vh;
+  overflow: auto;
 }
- 
-
 
  /* -------------------------------------- Media Query Contact ------------------------------ */
  .contact-img img{
@@ -789,7 +786,15 @@ form .btn{
   width: 100%;
   height: 100%;
 }
+.experience-container{
+  padding-bottom: 5vh;
+  /* margin: -5vw; */
+}
 
+.panl-card a img{
+  width: 180px !important;
+  height: 150px !important;
+}
 
 
   /* -------------------------------------- Media Query Contact ------------------------------ */

@@ -314,7 +314,7 @@
   
   /* -------------------------------------- Experience ------------------------------ */
   #experience{
-    background-image: url(image/expe.jpg);
+    background-image: url(image/plt.jpg);
     background-size: 100% 100vh;
     text-align: center;
     padding-top: 8vh;
@@ -327,6 +327,23 @@
   padding: 20px;
 }
 
+
+  /* -------------------------------------- Hobbies ------------------------------ */
+  #hobbies{
+    background-image: url(image/expe.jpg);
+    background-size: 100% 100vh;
+    text-align: center;
+    padding-top: 8vh;
+  }
+  .hobbies-container .card{
+    background-color: #f1efef86;
+    transition: 0.3s;
+  }
+  .hobbies-container .card:hover{
+    background-color: rgb(243, 243, 255);
+    margin-top: -1vh;
+    
+  }
 
   /* -------------------------------------- Contact ------------------------------ */
   #contact{
@@ -582,6 +599,17 @@
   overflow: auto;
 }
 
+/* -------------------------------------- Media Query hobbies ------------------------------ */
+
+#hobbies{
+  width: 100%;
+  height: 100%;
+}
+.hobbies-container{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
  /* -------------------------------------- Media Query Contact ------------------------------ */
  .contact-img img{
   display: none;
@@ -788,7 +816,6 @@ form .btn{
 }
 .experience-container{
   padding-bottom: 5vh;
-  /* margin: -5vw; */
 }
 
 .panl-card a img{
@@ -796,6 +823,16 @@ form .btn{
   height: 150px !important;
 }
 
+
+ /* -------------------------------------- Media Query hobbies ------------------------------ */
+
+ #hobbies{
+  width: 100%;
+  height: 100%;
+}
+.hobbies-container{
+  padding-bottom: 5vh;
+}
 
   /* -------------------------------------- Media Query Contact ------------------------------ */
   .contact-img img{

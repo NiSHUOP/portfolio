@@ -6,6 +6,7 @@
     --primary-color: #000000;
     --secondry-color: #ffff;
     --third-color: #134e4a;
+    --fourth-color: #232d3065;
   } 
   body{
     background-color: var(--primary-color) !important;
@@ -178,3 +179,23 @@
   display: none;
 }
   
+
+#blog-card{
+  background-color: var(--fourth-color);
+  color: var(--secondry-color);
+}
+.modal .modal-content{
+  background-color: #080c0c;
+  padding: 20px;
+}
+.blog-date{
+  color: #6fa5a5 !important;
+}
+#blog-btn{
+  background-color: var(--third-color);
+  color: var(--secondry-color);
+}
+#blog-btn:hover{
+  background-color: rgb(51, 55, 54);
+  border-color: rgb(63, 80, 80);
+}

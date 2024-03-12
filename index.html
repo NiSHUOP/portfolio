@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>NishuAnand</title>
+  <link rel="icon" type="image/x-icon" href="/image/icons/FavIcon.png">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -12,15 +12,15 @@
     integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- -------------------- cdn for icon from bootstrap --------------------------- -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
   <!-- ----------------------- add aos for scroll animation (CSS) ---------------------- -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-
 <body>
-
   <!-- -------------------------------- Home ----------------------------------------------- -->
-
   <div class="container-fluid" id="home">
     <!-- ------------------------- NavBar ------------------------- -->
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: transparent;">
@@ -33,28 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="./blog.html">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificate">Certificate</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#hobbies">Hobbies</a>
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -63,289 +48,22 @@
         </div>
       </div>
     </nav>
-    <div class="name-container">
-      <h1 data-aos="zoom-out"><a href="#about">Nishu Anand</a></h1>
-      <h2 data-aos="zoom-out-up"> Web Developer</h2>
-      <a href="#about"><i class="fa-solid fa-chevron-down fa-bounce" id="down"></i></a>
-    </div>
-  </div>
-
-  <!-- ------------------------------- About ----------------------------------- -->
-
-  <div class="container-fluid" id="about">
+    <!-- ------------------------------- About ----------------------------------- -->
     <div class="container">
-
-      <h3><a href="#">About</a></h3>
-      <div class="containt">
-        <div data-aos="zoom-in"><img src="image/dp.png" alt="error"> </div>
-
-        <div class="profile" data-aos="fade-up">
-          <h1> I am Nishu Anand.</h1>
-          <p class="lead">Enthusiastic B.Tech computer science engineer graduate with basic knowledge in coding and
-            design. Seeking
-            an
-            opportunity in the field of Web Development. Proficient in HTML, CSS, JavaScript, C++, Python, Node.JS, and
-            JAVA. Ability to learn new software and technologies quickly. Capability to work in teams by providing
-            valuable support.</p>
-          <a href="#contact"><button><b>Hire Me.</b></button></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- -------------------------------- Education --------------------------------- -->
-
-  <div class="container-fluid" id="education">
-    <div class="container">
-
-      <h3><a href="#">Education</a></h3>
-      <div class="edu-container">
-
-        <div class="card mb-3" id="edu-containt" style="max-width: 100%;" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-md-4 edu">
-              <a href="https://uem.edu.in/uem-jaipur/" target="_blank">
-                <img src="image/uem.png" class="img-fluid rounded-start" id="edu-img" alt="UEM.img">
-              </a>
-            </div>
-            <div class="col-md-8">
-              <div class="card-body edu-text">
-                <p class="card-text lead">2019-2023</p>
-                <h4 class="card-title">Bachelor of Technology: Computer Science</h4>
-                <h5 class="card-subtitle mb-2 text-body-secondary">University of Engineering and Management, Jaipur
-                  (Rajasthan)</h5>
-                <p class="card-text">CGPA: 7.73</p>
-              </div>
-            </div>
+      <div class="containt" id="about">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6" data-aos="zoom-in">
+            <img src="image/dp.png" class="d-block mx-lg-auto img-fluid " alt="profile" loading="lazy">
           </div>
-        </div>
-
-        <div class="card mb-3" id="edu-containt" style="max-width: 100%;" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-md-4 edu">
-              <a href="http://disbhagalpur.com/" target="_blank">
-                <img src="image/dis.png" class="img-fluid rounded-start" id="edu-img" alt="DIS.img">
-              </a>
-            </div>
-            <div class="col-md-8">
-              <div class="card-body edu-text">
-                <p class="card-text lead">2018</p>
-                <h4 class="card-title">Senior Secondary</h4>
-                <h5 class="card-subtitle mb-2 text-body-secondary">Diksha International School,Bhagalpur (Bihar)</h5>
-                <p class="card-text">Percentage: 63%</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" id="edu-containt" style="max-width: 100%;" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-md-4 edu">
-              <a href="https://godda.kvs.ac.in/" target="_blank">
-                <img src="image/kvs.png" class="img-fluid rounded-start" id="edu-img" alt="KVS.img">
-              </a>
-            </div>
-            <div class="col-md-8">
-              <div class="card-body edu-text">
-                <p class="card-text lead">2016</p>
-                <h4 class="card-title">Secondary</h4>
-                <h5 class="card-subtitle mb-2 text-body-secondary">Kendriya Vidyalaya,Godda (Jharkhand)</h5>
-                <p class="card-text">CGPA: 8.4</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- ------------------------------- Skills ----------------------------------- -->
-
-  <div class="container-fluid" id="skills">
-    <div class="container">
-
-      <h3><a href="#">Skills</a></h3>
-      <div class="skill-container" data-aos="zoom-in">
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Programming Languages :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <img src="image/icons/html-5.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/css.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <i class="fa fa-2x fa-js " style="color: yellow;"></i></a>
-                  </li>
-                  <li>
-                    <img src="image/icons/c-.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <h7 style="color: rgb(235, 235, 235); font-family: Arial; font-size: 35px;"><b>C</b></h7>
-                  </li>
-                  <li>
-                    <img src="image/icons/python.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/java.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/php.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Frameworks :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <a href="https://github.com/NiSHUOP" target="blank"><i class="fa fa-2x fa-bootstrap"
-                        style="color: #9932ff;"></i></a>
-                  </li>
-                  <li>
-                    <h7 class="lead" style="color: rgb(235, 235, 235); font-size: 30px; ">Express</h7>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Libraries :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <h7 style="color: rgb(235, 235, 235); font-size: 30px;">jQurey</h7>
-                  </li>
-                  <li>
-                    <a href="https://github.com/NiSHUOP" target="blank"><i class="fa fa-2x fa-react"
-                        style="color: #61DBFB;"></i></a>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Databases :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <i class="fa fa-2x fa-database" id="icon_text" style=" color: rgb(235, 235, 235);">
-                      <h7 style=" color: rgb(235, 235, 235); font-family: Arial; font-size: 30px; padding: 0 5px;">
-                        <b>SQL</b>
-                      </h7>
-                    </i>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Tools :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <img src="image/icons/vs_code.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/replit.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <i class="fa fa-2x fa-wordpress" style=" color: rgb(178, 189, 193);"></i>
-                  </li>
-                  <li>
-                    <i class="fa fa-2x fa-node" style=" color: rgb(248, 252, 249);"></i>
-                  </li>
-                  <li>
-                    <i class="fa fa-2x fa-github" style=" color: rgb(23, 7, 66);"></i>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="card mb-3" id="skill-content" style="max-width: 100%;">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <h5 class="card-title" id="skill_title" data-aos="fade-right">Designing Tools :
-              </h5>
-            </div>
-            <div class="col-md-9">
-
-              <div class="card-body" id="skill-body" data-aos="fade-up-left">
-                <ul>
-                  <li>
-                    <img src="image/icons/figma.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <h7 style=" color: rgb(235, 235, 235); font-family: Montserrat; font-size: 30px; padding: 0 5px;">
-                      <b>Canva</b>
-                    </h7>
-                  </li>
-                  <li>
-                    <img src="image/icons/illustrator.png" class="img-fluid rounded-start" id="skill-icon"
-                      alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/indesign.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                  <li>
-                    <img src="image/icons/photoshop.png" class="img-fluid rounded-start" id="skill-icon" alt="UEM.img">
-                  </li>
-                </ul>
-
-              </div>
+          <div class=" profile col-lg-6" data-aos="fade-up">
+            <h1 class="display-5 fw-bold lh-1 mb-3">I am Nishu Anand.</h1>
+            <p class="lead">Enthusiastic B.Tech computer science engineer graduate with basic knowledge in coding and
+              design. Seeking an opportunity in the field of Web Development. Proficient in HTML, CSS, JavaScript, C++,
+              Python, Node.JS, and
+              JAVA. Ability to learn new software and technologies quickly. Capability to work in teams by providing
+              valuable support.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" id="cv" class="btn btn-primary btn-lg px-4 me-md-2" href="./image/Nishu_Resume.pdf" target="_blank">Resume</a>          
             </div>
           </div>
         </div>
@@ -353,528 +71,382 @@
       </div>
     </div>
   </div>
+  <!-- --------------------------------------- Parallex Effect -------------------------------------- -->
+  <!-- ------------------------- web design ----------------------- -->
+  <div class="container-fluid">
+    <div class="container" id="parallex">
 
+      <div class="row g-5">
 
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h3><a href="#">Web Design</a></h3>
+                <p>Explore my vibrant web creations! I design user-friendly websites with a splash of creativity. From
+                  colors to layout, each project is a digital journey, ensuring a seamless experience on any device.
+                  Dive
+                  into the world of my web designs below!</p>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                  <li>JS/React</li>
+                  <li>WordPress</li>
+                </ul>
+                <div class="icons">
+                  <i class="bi bi-arrow-right text-light"></i>
+                  <a href="https://github.com/NiSHUOP" target="blank"><i class="bi bi-github text-light"></i></a>
+                  <a href="https://replit.com/@NishuAnand?path=folder/Web%20Project" target="blank"><img
+                      src="image/icons/replit.svg" width="130px"
+                      alt="My Happy SVG" /></a>
+                </div>
+              </div>
+            </div>
 
-  <!-- -------------------------------- Project --------------------------------- -->
+          </div>
+        </div>
 
-  <div class="container-fluid" id="project">
-    <div class="container">
-      <h3><a href="#">Project</a></h3>
-      <div class="project-container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card">
-              <img src="image/proj10.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Fitness Web</h5>
-                <p class="card-text">Developed an interactive fitness website using React, Bootstrap, and Material-UI,
-                  providing users with
-                  a comprehensive exercise guide categorized by body parts and fitness goals.
-                  Integrated GIF demonstrations for each exercise, enhancing user understanding of proper form and
-                  movement techniques. Incorporated embedded YouTube videos to offer detailed video tutorials,
-                  accommodating diverse learning preferences.</p>
-                <div class="btn-container">
-                  <a href="https://mygym-nishu-anand.netlify.app" class="btn btn-primary" target="_blank">Live</a>
-                  <a href="https://github.com/NiSHUOP/gym-website" class="btn btn-primary" target="_blank">Code</a>
+        <div class="col-md-6">
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/proj10.png" class="card-img-top" alt="...">
+                <!-- <div class="card-body">
+                  <h5 class="card-title">Fitness Web</h5>
+  
+                  <div class="btn-container">
+                    <a href="https://mygym-nishu-anand.netlify.app" class="btn btn-primary"
+                      target="_blank">Live</a>
+                    <a href="https://github.com/NiSHUOP/gym-website" class="btn btn-primary"
+                      target="_blank">Code</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/proj9.png" class="card-img-top" alt="...">
+                <!-- <div class="card-body">
+                  <h5 class="card-title">News Web</h5>
+  
+                  <div class="btn-container">
+                    <a href="https://newsy-nishu-anand.netlify.app" class="btn btn-primary" target="_blank">Live</a>
+                    <a href="https://github.com/NiSHUOP/newsy" class="btn btn-primary" target="_blank">Code</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/proj12.png" class="card-img-top" alt="...">
+                <!-- <div class="card-body">
+                  <h5 class="card-title">Education Website</h5>
+                  
+                  <div class="btn-container">
+                    <a href="http://eduspace.is-great.org/" class="btn btn-primary" style="width: 8rem;"
+                      target="_blank">Live</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/proj13.png" class="card-img-top" alt="...">
+                <!-- <div class="card-body">
+                  <h5 class="card-title">E-Commerce Website</h5>
+                  
+                  <div class="btn-container">
+                    <a href="http://foxstore.is-best.net/" class="btn btn-primary" style="width: 8rem;"
+                      target="_blank">Live</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------- graphic design -------------------- -->
+  <div class="container-fluid">
+    <div class="container" id="parallex">
+      <div class="row g-5">
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h3><a href="#">Graphic Design</a></h3>
+                <p>Unveil the magic of my design journey! From logos to eye-catching graphics, I craft visuals that
+                  leave
+                  an impression. Explore my portfolio for a glimpse into the world of creative possibilities.</p>
+                <ul>
+                  <li>Illustrator</li>
+                  <li>Photoshop</li>
+                  <li>Figma</li>
+                  <li>Canva</li>
+                </ul>
+                <div class="icons">
+                  <i class="bi bi-arrow-right"></i>
+                  <a href="https://dribbble.com/Nishu_Anand" target="blank"><i
+                      class="bi bi-dribbble text-light pe-3"></i></a>
+                  <a href="https://github.com/NiSHUOP" target="blank"><i class="bi bi-behance text-light"></i></a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/Graphic/design1.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card">
-              <img src="image/proj9.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">News Web</h5>
-                <p class="card-text">Developed a user-friendly news web app using React.js, that displays news articles
-                  from News API.
-                  Implemented categorized news sections for topics like politics, technology, and sports, enabling users
-                  to
-                  access news relevant to their interests.
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/Graphic/design2.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/Graphic/design3.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/Graphic/design4.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/Graphic/design5.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------- Certificate ----------------------- -->
+  <div class="container-fluid">
+    <div class="container" id="parallex">
+
+      <div class="row g-5">
+
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h3><a href="#">Certificate</a></h3>
+                <p>Discover my achievements! These certificates are like badges of expertise. From web design to coding,
+                  each represents a skill mastered. Check them out to see the qualifications that make my work shine!
                 </p>
-                <div class="btn-container">
-                  <a href="https://newsy-nishu-anand.netlify.app" class="btn btn-primary" target="_blank">Live</a>
-                  <a href="https://github.com/NiSHUOP/newsy" class="btn btn-primary" target="_blank">Code</a>
+                <ul>
+                  <li>Digital Marketing</li>
+                  <li>DBMS</li>
+                  <li>Python</li>
+                  <li>Web Development</li>
+                </ul>
+                <div class="icons">
+                  <i class="bi bi-arrow-right text-light"></i>
+                  <a href="https://www.linkedin.com/in/nishu-anand-5961b0194/details/certifications/" target="blank"><i
+                      class="bi bi-mortarboard text-light"></i></a>
+
                 </div>
+
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card">
-              <img src="image/proj13.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">E-Commerce Website</h5>
-                <p class="card-text">"FoxStore" is Clothing Store Website using WordPress, integrating responsive design and optimal user experience. Utilized customization and creative design to enhance the brand's online presence.</p>
-                <div class="btn-container">
-                  <a href="http://foxstore.is-best.net/" class="btn btn-primary" style="width: 8rem;" target="_blank">Live</a>
-                </div>
-              </div>
-            </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card">
-              <img src="image/proj12.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Education Website</h5>
-                <p class="card-text">"EduSpace" is a dynamic WordPress-powered education website designed to make learning accessible and engaging for a diverse audience. This platform offers a user-friendly interface, a vast course catalog, interactive learning tools, and a supportive community. Whether you're a student, professional, or educator, "EduSpace" empowers you to expand your horizons and achieve your learning goals. Join us on a journey of knowledge, your way.</p>
-                <div class="btn-container">
-                  <a href="http://eduspace.is-great.org/" class="btn btn-primary" style="width: 8rem;" target="_blank">Live</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-      <a class="btn btn-primary" id="more" href="./project.html" data-aos="fade-down">Load More <i
-          class="fa-solid fa-arrow-right fa-beat"></i></a>
-    </div>
-  </div>
 
+        <div class="col-md-6">
 
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card ">
+                <img src="image/certificate/digital.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
 
-  <!-- -------------------------------- Certificate --------------------------------- -->
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/certificate/dbms.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
 
-  <div class="container-fluid" id="certificate">
-    <div class="container">
-      <h3><a href="#">Certificate</a></h3>
-      <div class="certificate-container">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card ">
-              <img src="image/certificate/digital.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Digital Skills: Digital Marketing</h5>
-                <p class="card-text"><b>Accenture</b></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-sm btn-outline-secondary px-3 py-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal0"><b>View</b></button>
-                  </div>
-                  <small class="text-body-secondary">Sept 2023</small>
-                </div>
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/certificate/python.jpg" class="card-img-top" alt="...">
               </div>
             </div>
           </div>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true" data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-                <div class="modal-header" style="color: rgb(254, 254, 254);">
-                  <h5 class="modal-title">Digital Skills: Digital Marketing - <b>Accenture</b></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <img src="image/certificate/digital1.png" class="card-img-top " alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card ">
-              <img src="image/certificate/dbms.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Data Base Management System</h5>
-                <p class="card-text">NPTEL - <b>IIT Kharagpur</b></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-sm btn-outline-secondary px-3 py-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal1"><b>View</b></button>
-                  </div>
-                  <small class="text-body-secondary">Oct 2022</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true" data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-                <div class="modal-header" style="color: rgb(254, 254, 254);">
-                  <h5 class="modal-title">Data Base Management System - <b>NPTEL</b></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <img src="image/certificate/dbms.png" class="card-img-top " alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="col col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card">
-              <img src="image/certificate/python.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Joy of computing using Python</h5>
-                <p class="card-text">NPTEL - <b>IIT Madras</b></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-sm btn-outline-secondary px-3 py-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal2"><b>View</b></button>
-                  </div>
-                  <small class="text-body-secondary">April 2022</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true" data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-            <div class="modal-dialog  modal-lg">
-              <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-                <div class="modal-header" style="color: rgb(254, 254, 254);">
-                  <h5 class="modal-title"> Joy of computing using Python - <b>NPTEL</b></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <img src="image/certificate/python_long.jpg" class="card-img-top " alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="col col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <div class="card ">
-              <img src="image/certificate/web.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Python-Django and ReactJs with API Development</h5>
-                <p class="card-text">TechSimPlus - Entrepreneurship Cell <b>IIT Kharagpur</b></p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-sm btn-outline-secondary px-3 py-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal4"><b>View</b></button>
-                  </div>
-                  <small class="text-body-secondary">Sept 2020</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true" data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-                <div class="modal-header" style="color: rgb(254, 254, 254);">
-                  <h5 class="modal-title">Python-Django and ReactJs with API Development - <b>TechSimPlus</b></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
                 <img src="image/certificate/web.png" class="card-img-top " alt="...">
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
-      <a class="btn btn-primary" id="more" href="./certificate.html" data-aos="fade-down">Load More <i
-        class="fa-solid fa-arrow-right fa-beat"></i></a>
-  </div>
     </div>
   </div>
+  <!-- ------------------------- Experience ------------------------ -->
+  <div class="container-fluid">
+    <div class="container" id="parallex">
+      <h3><a href="#">Position of Responsiblity</a></h3>
 
-
-  <!-- -------------------------------- Experience --------------------------------- -->
-
-  <div class="container-fluid" id="experience">
-    <div class="container">
-      <h3><a href="#">Experience</a></h3>
-      <div class="experience-container mt-5">
-        <div class="card text-center" data-bs-theme="dark" style="background-color: rgba(29, 1, 56, 0.932);"
-          data-aos="zoom-in-up">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-              <li class="nav-item " role="presentation">
-                <a class="nav-link active" data-bs-toggle="tab" id="vp_tab" type="button" data-bs-target="#vp"
-                  role="tab" aria-controls="vp" aria-selected="true">Vice President</a>
-              </li>
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" data-bs-toggle="tab" id="ec_tab" type="button" data-bs-target="#ec" role="tab"
-                  aria-controls="ec" aria-selected="true">Event Coordinator</a>
-              </li>
-              <li class="nav-item" role="presentation">
-                <a class="nav-link " data-bs-toggle="tab" id="eo_tab" type="button" data-bs-target="#eo" role="tab"
-                  aria-controls="eo" aria-selected="true">Event Organizer</a>
-              </li>
-            </ul>
-          </div>
-          <div class="tab-content container" id="myTabControl" style="background-color: #212529">
-            <div class=" tab-pane fade show active" role="tabpanel" id="vp" aria-labelledby="vp_tab">
-              <h5 class="card-title">Vice President</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Cultural Club · Part-time</h6>
-              <small class="text-body-secondary">University of Engineering & Management Jaipur</small><br />
-              <small class="text-body-secondary">Aug 2022 - May 2023</small>
-              <p class="pane-text">Collaborated with a team of 10 club members to organize cultural events, and
-                performances on campus.
-                Demonstrated strong leadership and communication skills in conducting meetings and delegating tasks to
-                ensure the smooth execution of events.
-                Successfully organized the university's annual cultural festival, attracting over 1,000 attendees and
-                receiving positive feedback from both students and faculty.</p>
-              <small class="text-body-secondary">Skills: <b>Leadership</b>, <b>Communication</b>, <b>Event Planning</b>,
-                <b>Event Organization</b>, <b>Teamwork</b>, <b>Public Relations</b></small>
-              <div class="group-img">
-                <div class="row">
-                  <!-- Button trigger modal -->
-                  <div class="panl-card" style="width: 190px; padding: 0;">
-                    <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModalx"><img
-                        src="image/event/vp1.jpg" class="card-img-top" alt="..."
-                        style="height: 180px; width: 190px; border-color: transparent; "></a>
-                  </div>
-
-                  <!-- Button trigger modal -->
-                  <div class="panl-card" style="width: 280px;">
-                    <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModaly"><img
-                        src="image/event/vp2.jpg" class="card-img-top" alt="..."
-                        style="height: 180px; width: 280px; border-color: transparent;"></a>
-                  </div>
-
-                </div>
+      <div class="row g-5">
+        <!-- left side container -->
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h5 class="card-title">Vice President</h5>
+                <h6 class="card-subtitle mb-2 ">Cultural Club · Part-time</h6>
+                <small >University of Engineering & Management Jaipur</small><br />
+                <small >Aug 2022 - May 2023</small>
+                <p class="pane-text">As Vice President of the Cultural Club, I bring people together through exciting
+                  events and celebrations. From coordinating performances to promoting diversity, I work passionately to
+                  create a vibrant and inclusive community.</p>
+                <small >Skills: <b>Leadership</b>, <b>Communication</b>, <b>Event
+                    Planning</b>,
+                  <b>Event Organization</b>, <b>Teamwork</b>, <b>Public Relations</b></small>
               </div>
             </div>
-            <div class=" tab-pane fade show" role="tabpanel" id="ec" aria-labelledby="ec_tab">
-              <h5 class="card-title">Event Coordinator</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Coding Club · Part-time</h6>
-              <small class="text-body-secondary">University of Engineering & Management Jaipur</small><br />
-              <small class="text-body-secondary">Aug 2022 - May 2023</small>
-              <p class="pane-text">Managed a group of 10 coding enthusiasts, organizing weekly coding workshops and
-                activities.
-                Successfully coordinated 10+ coding competitions program in university, attracting over 500+ attendees
-                and receiving positive feedback from both students and faculty.</p>
-              <small class="text-body-secondary">Skills: <b>Communication</b>, <b>Event Planning</b>, <b>Teamwork</b>,
-                <b>Time Management</b></small>
+          </div>
+        </div>
+        <!-- right side container -->
+        <div class="col-md-6">
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card ">
+                <img src="image/event/vp1.jpeg" class="card-img-top" alt="..." style="height: 400px; ">
+              </div>
             </div>
-            <div class=" tab-pane fade show" role="tabpanel" id="eo" aria-labelledby="eo_tab">
-              <h5 class="card-title">Event Organizer</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Chess Championship · Part-time</h6>
-              <small class="text-body-secondary">University of Engineering & Management Jaipur</small><br />
-              <small class="text-body-secondary">Apr 2022</small>
-              <p class="pane-text">Led the planning, coordination, and execution of the Chess Championship on the
-                occasion of the
-                annual sports meet of the UEM Jaipur, a flagship event that attracted participation from over 50+
-                students and faculty members.</p>
-              <small class="text-body-secondary">Skills: <b>Teamwork</b>, <b>Problem Solving</b>, <b>Leadership</b>,
-                <b>Communication</b>, <b>Event Planning</b>, <b>Event Management</b></small>
-              <div class="group-img">
-                <div class="row">
-                  <!-- Button trigger modal -->
-                  <div class="panl-card" style="width: 190px; padding: 0;">
-                    <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModala"><img
-                        src="image/event/eo1.jpg" class="card-img-top" alt="..."
-                        style="height: 180px; width: 190px; border-color: transparent; "></a>
-                  </div>
-
-                  <!-- Button trigger modal -->
-                  <div class="panl-card" style="width: 280px;">
-                    <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModalb"><img
-                        src="image/event/eo2.jpg" class="card-img-top" alt="..."
-                        style="height: 180px; width: 200px; border-color: transparent;"></a>
-                  </div>
-
-                </div>
+          </div>
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/event/vp2.jpg" class="card-img-top" alt="...">
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalx" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-      data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-      <div class="modal-dialog ">
-        <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-          <div class="modal-header" style="color: rgb(254, 254, 254);">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <img src="image/event/vp1.jpg" class="card-img-top " alt="...">
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModaly" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-      data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-      <div class="modal-dialog ">
-        <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-          <div class="modal-header" style="color: rgb(254, 254, 254);">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <img src="image/event/vp2.jpg" class="card-img-top " alt="...">
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-      data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-      <div class="modal-dialog ">
-        <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-          <div class="modal-header" style="color: rgb(254, 254, 254);">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <img src="image/event/eo1.jpg" class="card-img-top " alt="...">
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-      data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-      <div class="modal-dialog ">
-        <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-          <div class="modal-header" style="color: rgb(254, 254, 254);">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <img src="image/event/eo2.jpg" class="card-img-top " alt="...">
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
-  <!-- -------------------------------- Hobbies --------------------------------- -->
-
-  <div class="container-fluid" id="hobbies">
-    <div class="container">
-      <h3><a href="#">Hobbies</a></h3>
-      <div class="hobbies-container pt-5">
-
-
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-          <a type="button" class="btn " href="https://www.instagram.com/aesthetic_artsy_/" target="_blank">
-              <div class="card">
-                <img src="image/hobbies/3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">Drawing</h3>
-                </div>
+      <div class="row g-5">
+        <!-- left side container -->
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h5 class="card-title">Event Coordinator</h5>
+                <h6 class="card-subtitle mb-2 ">Coding Club · Part-time</h6>
+                <small >University of Engineering & Management Jaipur</small><br />
+                <small >Aug 2022 - May 2023</small>
+                <p class="pane-text">As the Event Coordinator for Coding Club, I turn ideas into engaging tech
+                  experiences. From hackathons to coding workshops, I orchestrate events that fuel our passion for
+                  programming and foster a dynamic learning environment.</p>
+                <small >Skills: <b>Communication</b>, <b>Event Planning</b>, <b>Teamwork</b>,
+                  <b>Time Management</b></small>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <a type="button" class="btn " href="https://www.chess.com/member/nishuan2d" target="_blank">
-              <div class="card">
-                <img src="image/hobbies/1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">Chess</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <a type="button" class="btn " href="#hobbies" >
-              <div class="card">
-                <img src="image/hobbies/2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">Music</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-up">
-            <a type="button" class="btn " href="#hobbies" >
-              <div class="card">
-                <img src="image/hobbies/4.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">Fitness</h3>
-                </div>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
-
-
-
-
-        <!-- Button trigger modal -->
-        <!-- <div class="panl-card" style="width: 190px; padding: 0;">
-  <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModali"><img
-      src="image/event/vp1.jpg" class="card-img-top" alt="..."
-      style="height: 180px; width: 190px; border-color: transparent; "></a>
-</div> -->
-
-
-
-
-        <!-- Modal -->
-        <!-- <div class="modal fade" id="exampleModali" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
-<div class="modal-dialog ">
-  <div class="modal-content " style="background-color: rgba(6, 0, 18, 0.948);">
-    <div class="modal-header" style="color: rgb(254, 254, 254);">
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <img src="image/event/eo2.jpg" class="card-img-top " alt="...">
-  </div>
-</div>
-</div> -->
-
+        <!-- right side container -->
+        <div class="col-md-6">
+        </div>
 
       </div>
+      <div class="row g-5">
+        <!-- left side container -->
+        <div class="col-md-6">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="right_prlx mb-3">
+              <div class="h-100  rounded-3 text-start">
+                <h5 class="card-title">Event Organizer</h5>
+                <h6 class="card-subtitle mb-2 ">Chess Championship · Part-time</h6>
+                <small >University of Engineering & Management Jaipur</small><br />
+                <small >Apr 2022</small>
+                <p class="pane-text">As the Chess Championship Event Organizer, I set the stage for strategic battles.
+                  From planning tournaments to coordinating intense matches, I create an atmosphere where chess
+                  enthusiasts can compete and celebrate the timeless game.</p>
+                <small >Skills: <b>Teamwork</b>, <b>Problem Solving</b>, <b>Leadership</b>,
+                  <b>Communication</b>, <b>Event Planning</b>, <b>Event Management</b></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right side container -->
+        <div class="col-md-6">
+          <div>
+            <div class="col" data-aos="zoom-in-up" id="left_prlx">
+              <div class="card">
+                <img src="image/event/eo2.jpg" class="card-img-top" alt="..." style="height: 400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-
-
   <!-- -------------------------------- Contact --------------------------------- -->
-
   <div class="container-fluid" id="contact">
     <div class="container" id="cont">
-      <h3><a href="#">Contact</a></h3>
       <div class="contact-container">
-
-        <div class="contact-img" data-aos="zoom-in">
-          <img src="image/cu1.svg">
+        <div class="social">
+          <a href="https://www.linkedin.com/in/nishu-anand-5961b0194/" target="blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/Nishu_An2d" target="blank"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/nishu_an2d/" target="blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/nishu.anand.71653" target="blank"><i class="bi bi-facebook"></i></a>
         </div>
-
-        <form action="https://formspree.io/f/xbjebkvo" method="POST" data-aos="fade-up">
-          <div class="mb-3">
-            <input type="text" class="form-control" id="exampleFormControlInput1" type="text" name="name"
-              autocomplete="off" required placeholder="Name">
-          </div>
-          <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" type="email" name="email"
-              autocomplete="off" required placeholder="Email">
-          </div>
-          <div class="mb-3">
-            <input type="text" class="form-control" id="exampleFormControlInput1" type="text" name="subject"
-              autocomplete="off" required placeholder="Subject">
-          </div>
-          <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" type="text" name="message"
-              autocomplete="off" required placeholder="Message.." rows="3"></textarea>
-          </div>
-          <button type="submit" value="Send Message" class="btn btn-primary">Submit</button>
-        </form>
       </div>
-      <a href="#footer"><i class="fa-solid fa-chevron-down fa-bounce" id="down-footer"></i></a>
+      <h3><a >We're just a click away</a></h3>
+      <a type="button" class="btn btn-outline-light" id="mail" href="mailto:nishuanand123gooda@gmail.com">Get in Touch</a>
     </div>
+    <h7 class="watermark">Hire Me</h7>
+    <a href="#" class="up"><h7>Back to Top</h7></a>
   </div>
-
-  <!-- -------------------------------- Footer --------------------------------- -->
-
-  <footer id="footer">
-    <div class="social" data-aos="zoom-in">
-      <a href="https://www.linkedin.com/in/nishu-anand-5961b0194/" target="blank"><i
-          class="fa fa-2x fa-linkedin"></i></a>
-      <a href="https://github.com/NiSHUOP" target="blank"><i class="fa fa-2x fa-github"></i></a>
-      <a href="https://dribbble.com/Anand_Nishu" target="blank"><i class="fa fa-2x fa-dribbble"></i></a>
-      <a href="https://www.instagram.com/nishu_an2d/" target="blank"><i class="fa fa-2x fa-instagram"></i></a>
-    </div>
-    <br>
-    <div>
-      <p class="copyright text-center">
-        &copy;2023 Copyright. Designed by
-        <a href="#about" style="text-decoration: none;">Nishu Anand.</a>
-      </p>
-    </div>
-  </footer>
-
-
-
-
-
+  <!-- -------------------------------- External JS --------------------------------- -->
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-
-
   <!-- ----------------------- add aos for scroll animation (JS) ---------------------- -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
@@ -883,8 +455,7 @@ data-bs-theme="dark" style="background-color: rgba(8, 8, 8, 0.345);">
       duration: 1500,
     });
   </script>
-
-
+  <!-- ----------------------- add JS ---------------------- -->
+  <script src="script.js"></script>
 </body>
-
 </html>

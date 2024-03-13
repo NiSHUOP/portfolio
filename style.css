@@ -13,12 +13,12 @@
     color: var(--secondry-color) !important;
   }
  #cv{
-  background-color: var(--third-color);
-  border-color: var(--third-color);
+  color: var(--secondry-color);
+  border: 2px solid var(--secondry-color);
  }
  #cv:hover{
-  background-color: rgb(51, 55, 54);
-  border-color: rgb(63, 80, 80);
+  background-color: var(--third-color);
+  border-color: var(--fourth-color);
  }
  h6, small {
   color: var(--third-color) !important;
@@ -31,38 +31,49 @@
     text-align: center;
   }
  
+  h3 a{
+     font-size: 2.5em;
+     text-decoration: none;
+     padding-bottom: 2vh;
+     color: var(--secondry-color);
+     transition: 0.2s;
+     text-shadow: 0 0 20px var(--third-color);
+   }
+  h3 a:hover{
+     letter-spacing: 4px;
+   }
+   
   /* --------------------------- About ------------------------------- */
   
   #about{
     height: 100vh;
   }
- h3 a{
-    font-size: 2.5em;
-    text-decoration: none;
-    padding-bottom: 2vh;
-    color: var(--secondry-color);
-    transition: 0.2s;
-    text-shadow: 0 0 20px var(--third-color);
-  }
- h3 a:hover{
-    letter-spacing: 4px;
-  }
   .containt{
     display: flex;
-    justify-content: space-between;  
+    justify-content: center;  
   }
   .containt img{
-    padding-top: 4vh;
-    width: 350px;
+    width: 450px;
     transition: 0.5s;
   }
-  .profile{
-    text-align: justify;
+  #profile{
+    text-align: left;
     color: var(--secondry-color);
   }
-  .profile p{
-    margin-top: 2vh;
-    font-size: 1.2vw;
+  #profile p{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  #profile h1{
+    font-size: 80px;
+    margin-bottom: 50px !important;
+  }
+  #profile h2{
+    font-size: 75px;
+  }
+  #profile h2 span{
+    color: #017069;
+    font-size: 90px;
   }
  
   /* -------------------------------------- Parallex Effect  ------------------------------ */

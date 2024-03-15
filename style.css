@@ -23,7 +23,10 @@
  h6, small {
   color: var(--third-color) !important;
  }
-
+ a:link {
+  text-decoration: none;
+  font-weight: 700;
+}
   /* ------------------ Home ------------------------- */
   
   .container-fluid{
@@ -75,7 +78,16 @@
     color: #017069;
     font-size: 90px;
   }
- 
+  .sml_work a{
+    color: var(--third-color);
+    padding: 2rem 1rem;
+    transition: 0.5s;
+    font-size: 35px;
+  }
+  .sml_work a:hover{
+    margin-top: -1vh;
+    color: var(--secondry-color);
+  }
   /* -------------------------------------- Parallex Effect  ------------------------------ */
 
 #parallex{
@@ -210,3 +222,21 @@
   background-color: rgb(51, 55, 54);
   border-color: rgb(63, 80, 80);
 }
+
+
+
+/* -------------------- Making yourQuote icon ----------------------- */
+#quote{
+  font-size: 25px;
+  border: 1.7px solid var(--third-color);
+  padding: 1px 8.5px;
+  border-radius: 50%;
+  font-weight: 1000;
+  color: var(--third-color);
+}
+#quote:hover{
+  color: var(--primary-color);
+  border: 1.7px solid var(--secondry-color);
+  color: var(--secondry-color);
+}
+

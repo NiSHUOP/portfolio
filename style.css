@@ -74,6 +74,9 @@
   #profile h2{
     font-size: 75px;
   }
+  #profile p span{
+    color: #017069;
+  }
   #profile h2 span{
     color: #017069;
     font-size: 90px;

@@ -5,7 +5,7 @@
   :root{
     --primary-color: #000000;
     --secondry-color: #ffff;
-    --third-color: #134e4a;
+    --third-color: #017069;
     --fourth-color: #232d3065;
   } 
   body{
@@ -38,14 +38,16 @@
      font-size: 2.5em;
      text-decoration: none;
      padding-bottom: 2vh;
-     color: var(--secondry-color);
+     color: var(--third-color);
      transition: 0.2s;
-     text-shadow: 0 0 20px var(--third-color);
+     /* text-shadow: 0 0 20px var(--third-color); */
    }
   h3 a:hover{
      letter-spacing: 4px;
    }
    
+
+
   /* --------------------------- About ------------------------------- */
   
   #about{

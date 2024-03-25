@@ -202,6 +202,33 @@
 
 }
 
+@media screen and (max-width: 480px) {
+  #profile p{
+    font-size: 25px !important;
+  }
+  h2{
+    font-size: 30px !important;
+  }
+  h2 span{
+    font-size: 35px !important;
+  }
+  #profile h1{
+    font-size: 35px !important;
+    margin-bottom: 20px !important;
+  }
+  h3 a{
+    font-size: 45px !important;
+  }
+  .containt img{
+    width: 450px;
+  }
+  #profile{
+    text-align: left;
+  }
+}
+
+
+
 /* ------------------ Side scrollbar of website ------------------------- */
 ::-webkit-scrollbar{
   display: none;
